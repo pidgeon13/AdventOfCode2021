@@ -1,6 +1,6 @@
 #include "Day1.h"
 
-int Day1::NumberOfIncreases(std::vector<std::string>& measurements)
+int Day1::NumberOfIncreases(const std::vector<std::string>& measurements)
 {
   size_t nMeasurements = measurements.size();
   if (nMeasurements < 2)
@@ -21,7 +21,7 @@ int Day1::NumberOfIncreases(std::vector<std::string>& measurements)
   return nIncreases;
 }
 
-int Day1::NumberOfWindow3Increases(std::vector<std::string>& measurements)
+int Day1::NumberOfWindow3Increases(const std::vector<std::string>& measurements)
 {
   size_t nMeasurements = measurements.size();
   if (nMeasurements < 4)
@@ -42,7 +42,7 @@ int Day1::NumberOfWindow3Increases(std::vector<std::string>& measurements)
   return nIncreases;
 }
 
-int Day1::NumberOfGenericIncreases(std::vector<std::string>& measurements, int windowSize)
+int Day1::NumberOfGenericIncreases(const std::vector<std::string>& measurements, int windowSize)
 {
   size_t nMeasurements = measurements.size();
   if (nMeasurements < windowSize + 1)
