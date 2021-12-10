@@ -126,11 +126,13 @@
     <ClCompile Include="AdventOfCode.cpp" />
     <ClCompile Include="Day1.cpp" />
     <ClCompile Include="Day2.cpp" />
+    <ClCompile Include="Day3.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day1.h" />
     <ClInclude Include="Day2.h" />
+    <ClInclude Include="Day3.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="stdIncludes.h" />
     <ClInclude Include="Utils.h" />
